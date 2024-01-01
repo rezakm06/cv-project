@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+                                                    /* the container design is hare */
+.container {
+    background-color: antiquewhite;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.headline_div {
+    text-align: center;
+    color: darkblue;
+
+   
+}
+                                                    /* the image design is hare */
+img {
+    height: 110px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.name_div {
+    display: inline;
+    float: left;
+    padding: 10px 10px;
+    line-height: 20px;
+    display: inline;
+    
+}
+.link_div {
+    float: right;
+    display: inline;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 15px;
+}
+a:hover {
+    color: darkgreen;
+}
+                                                                /* clear div & horizontal  is here */
+.div_clear  {
+    clear: both;
+}
+.hr_div {
+    border-bottom: 5px solid darkblue;
+}
+                                                                /* main div style start here */
+.left_div{
+    width: 25%;
+    color: darkblue;
+    padding: 5px;
+    float: left;
+}                                    
+.right_div {
+    float: right;
+    width: 70%;
+    padding: 5px;
+}          
+                                                               /* Table  style is start  hare */
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}                                                            
+
+td,th,tr {
+    border: 2px solid  black;
+    text-align: center;
+    padding: 5px;
+    
+}            
+                                                            /* computeer  skilled div style  is  here */
+.fiftyper {
+    width: 45%;
+}
+.fiftyleft {
+    float: left;
+}
+.fiftyright {
+    float: right;
+}
+                                                        
